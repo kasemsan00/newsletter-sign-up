@@ -18,6 +18,10 @@
   background-color: lightgrey;
 }
 
+input:active {
+  border: 1px solid white;
+}
+
 input:focus {
-  border: unset;
+  border: 1px solid white;
 }

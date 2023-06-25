@@ -10,6 +10,8 @@ export default {
         CharcoalGrey: "hsl(235,18%,26%)",
         Grey: "hsl(231,7%,60%)",
         White: "hsl(0,0%,100%)",
+        button1: "#ff5379",
+        button2: "#ff693e",
       },
     },
   },
