@@ -5,7 +5,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        "custom-yellow": "#BAA333",
         Tomato: "hsl(4,100%,67%)",
         DarkSlateGrey: "hsl(234,29%,20%)",
         CharcoalGrey: "hsl(235,18%,26%)",

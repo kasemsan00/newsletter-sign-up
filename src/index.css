@@ -14,3 +14,10 @@
 * {
   font-family: "Roboto Regular", serif;
 }
+.tonka {
+  background-color: lightgrey;
+}
+
+input:focus {
+  border: unset;
+}
