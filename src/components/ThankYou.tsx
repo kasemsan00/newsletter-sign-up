@@ -8,7 +8,7 @@ interface Props {
 export default function ThankYou({ emailSubscribe }: Props) {
   return (
     <>
-      <div className="flex flex-col w-[540px] gap-10 p-16 justify-center bg-White p-4 rounded-3xl">
+      <div className="flex flex-col w-[540px] gap-10 p-14 justify-center bg-White rounded-3xl">
         <img className="w-16" alt="icon success" src={IconSuccess} />
         <Header text={"Thanks for subscribing!"} />
         <span>

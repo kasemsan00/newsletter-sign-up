@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import desktopImage from "../assets/images/illustration-sign-up-desktop.svg";
+import mobileImage from "../assets/images/illustration-sign-up-mobile.svg";
 import iconList from "../assets/images/icon-list.svg";
 import ButtonPrimary from "./ButtonPrimary.tsx";
 import Header from "./Header.tsx";
@@ -67,6 +68,7 @@ export default function SubscribeForm({ onEmailChange, onSubmit }: Props) {
           </div>
         </div>
         <div className="w-full">
+          <img className="w-full" src={mobileImage} alt="mobile" />
           <img className="w-full" src={desktopImage} alt="desktop" />
         </div>
       </div>
