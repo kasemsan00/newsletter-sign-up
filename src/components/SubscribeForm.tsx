@@ -36,7 +36,7 @@ export default function SubscribeForm({ onEmailChange, onSubmit }: Props) {
   };
   return (
     <>
-      <div className="grid grid-cols-2 w-[900px] bg-White p-4 rounded-3xl">
+      <div className="flex flex-col-reverse md:grid md:grid-cols-2 w-full md:w-[900px] bg-White md:p-4 md:rounded-3xl">
         <div className="flex flex-col gap-10 p-6 justify-center">
           <Header text={"Stay updated!"} />
           <div className="">Join 60,000+ product manager receiving monthly updates on:</div>
@@ -68,8 +68,8 @@ export default function SubscribeForm({ onEmailChange, onSubmit }: Props) {
           </div>
         </div>
         <div className="w-full">
-          <img className="w-full" src={mobileImage} alt="mobile" />
-          <img className="w-full" src={desktopImage} alt="desktop" />
+          <img className="w-full sm:relative md:hidden xl:hidden" src={mobileImage} alt="mobile" />
+          <img className="w-full hidden md:block xl:block" src={desktopImage} alt="desktop" />
         </div>
       </div>
     </>
